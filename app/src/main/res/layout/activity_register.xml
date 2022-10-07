@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimens_20dp"
                 android:layout_marginTop="@dimen/dimens_110dp"
-                android:text="Hai, Selamat Datang"
+                android:text="@string/label_welcome"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimens_20dp"
                 android:layout_marginTop="@dimen/dimens_4dp"
-                android:text="Silahkan login untuk melanjutkan"
+                android:text="@string/label_description_login"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -48,7 +48,7 @@
                 android:layout_width="@dimen/dimens_0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimens_20dp"
-                android:text="Nama Depan"
+                android:text="@string/label_nama_depan"
                 app:layout_constraintEnd_toStartOf="@+id/vertical_guideline"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/appCompatImageView" />
@@ -86,7 +86,7 @@
                 style="@style/tv_medium_header"
                 android:layout_width="@dimen/dimens_0dp"
                 android:layout_height="wrap_content"
-                android:text="Nama Belakang"
+                android:text="@string/label_nama_belakang"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/vertical_guideline"
                 app:layout_constraintTop_toBottomOf="@+id/appCompatImageView" />
@@ -113,7 +113,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Doe"
+                        android:hint="@string/label_doe"
                         android:imeOptions="actionNext"
                         android:inputType="textEmailAddress" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_20"
                 android:layout_marginTop="@dimen/dimens_40dp"
-                android:text="No. KTP"
+                android:text="@string/label_no_ktp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/lastNameCard" />
 
@@ -152,7 +152,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Masukkan No. KTP anda"
+                        android:hint="@string/label_masukkan_no_ktp_anda"
                         android:imeOptions="actionNext"
                         android:inputType="textEmailAddress" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -165,7 +165,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimens_40dp"
                 android:layout_marginStart="@dimen/margin_20"
-                android:text="Email"
+                android:text="@string/label_email"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/idCardCard" />
 
@@ -191,7 +191,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Masukkan email anda"
+                        android:hint="@string/label_masukkan_email_anda"
                         android:imeOptions="actionNext"
                         android:inputType="textEmailAddress" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -204,7 +204,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimens_40dp"
                 android:layout_marginStart="@dimen/margin_20"
-                android:text="No. Telpon"
+                android:text="@string/label_no_telpon"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailCard" />
 
@@ -230,7 +230,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Masukkan No. Telpon anda"
+                        android:hint="@string/label_masukkan_no_telpon_anda"
                         android:imeOptions="actionNext"
                         android:inputType="textEmailAddress" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -243,7 +243,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimens_40dp"
                 android:layout_marginStart="@dimen/margin_20"
-                android:text="Password"
+                android:text="@string/label_password"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/numberPhoneCard" />
 
@@ -269,7 +269,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Masukkan password anda"
+                        android:hint="@string/label_masukkan_password_anda"
                         android:imeOptions="actionNext"
                         android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -282,7 +282,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimens_40dp"
                 android:layout_marginStart="@dimen/margin_20"
-                android:text="Konfirmasi Password"
+                android:text="@string/label_konfirmasi_password"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/passwordCard" />
 
@@ -308,7 +308,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Masukkan password anda"
+                        android:hint="@string/label_masukkan_password_anda"
                         android:imeOptions="actionDone"
                         android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -322,7 +322,7 @@
                 android:layout_marginTop="@dimen/dimens_40dp"
                 android:layout_marginHorizontal="@dimen/dimens_20dp"
                 android:minHeight="@dimen/dimens_48dp"
-                android:text="Register"
+                android:text="@string/label_register"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/confirmPasswordCard" />
@@ -333,7 +333,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginEnd="@dimen/dimens_6dp"
-                android:text="Sudah punya akun ?"
+                android:text="@string/label_sudah_punya_akun"
                 android:textColor="@color/color_gray_text"
                 app:layout_constraintEnd_toStartOf="@+id/vertical_guideline"
                 app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
@@ -345,7 +345,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginStart="@dimen/dimens_6dp"
-                android:text="Login sekarang"
+                android:text="@string/label_login_sekarang"
                 android:fontFamily="@font/inter_semibold"
                 app:layout_constraintStart_toStartOf="@+id/vertical_guideline"
                 app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
@@ -356,7 +356,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dimens_6dp"
                 android:layout_marginTop="@dimen/dimens_40dp"
-                android:text="SILK. all right reserved."
+                android:text="@string/label_silk_all_right_reserved"
                 android:textColor="@color/color_gray_text"
                 android:drawablePadding="@dimen/dimens_8dp"
                 app:layout_constraintEnd_toEndOf="parent"

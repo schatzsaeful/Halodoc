@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Halodoc</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_search">Search</string>
+    <string name="label_track">Track</string>
+    <string name="label_description_track">Kamu dapat mengecek progress pemeriksaanmu disini</string>
+    <string name="label_track_pemeriksaan">Track Pemeriksaan</string>
+    <string name="label_daftar_tes">Daftar Tes</string>
+    <string name="label_description_covid">Tes Covid 19, Cegah Corona Sedini Mungkin</string>
+    <string name="label_layanan_khusus">Layanan Khusus</string>
+    <string name="label_welcome">Hai, Selamat Datang</string>
+    <string name="label_description_login">Silahkan login untuk melanjutkan</string>
+    <string name="label_email">Email</string>
+    <string name="label_masukkan_email_anda">Masukkan email anda</string>
+    <string name="label_password">Password</string>
+    <string name="label_lupa_password_anda">Lupa Password anda ?</string>
+    <string name="label_masukkan_password_anda">Masukkan password anda</string>
+    <string name="label_login">Login</string>
+    <string name="label_belum_punya_akun">Belum punya akun ?</string>
+    <string name="label_daftar_sekarang">Daftar sekarang</string>
+    <string name="label_silk_all_right_reserved">SILK. all right reserved.</string>
+    <string name="label_nama_depan">Nama Depan</string>
+    <string name="label_nama_belakang">Nama Belakang</string>
+    <string name="label_doe">Doe</string>
+    <string name="label_no_ktp">No. KTP</string>
+    <string name="label_masukkan_no_ktp_anda">Masukkan No. KTP anda</string>
+    <string name="label_no_telpon">No. Telpon</string>
+    <string name="label_masukkan_no_telpon_anda">Masukkan No. Telpon anda</string>
+    <string name="label_konfirmasi_password">Konfirmasi Password</string>
+    <string name="label_register">Register</string>
+    <string name="label_sudah_punya_akun">Sudah punya akun ?</string>
+    <string name="label_login_sekarang">Login sekarang</string>
 </resources>
